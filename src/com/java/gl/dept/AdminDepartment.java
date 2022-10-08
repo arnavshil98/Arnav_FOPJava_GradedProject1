@@ -1,5 +1,7 @@
 package com.java.gl.dept;
-
+/*
+ * this source code is contributed by Rageshree.
+ */
 public class AdminDepartment {
 	public String departmentName() {
 		return "Admin Department";
