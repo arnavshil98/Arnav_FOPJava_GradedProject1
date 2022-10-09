@@ -10,6 +10,7 @@ public String getTodaysWork() {
 	return "Fill Todays timesheet and mark your attendance";
 }
 public String getWorkDeadlines() {
+	
 	return "Complete by EOD";
 	
 }
@@ -18,10 +19,11 @@ public String doActivity() {
 }
 public static void main(String[] args) {
 		HrDepartment a=new HrDepartment();
-		a.departmentName();
-		a.getTodaysWork();
-		a.getWorkDeadline();
-		a.doActivity();
-		a.isTodayaHoliday();		
+	System.out.println(a.departmentName());	
+	System.out.println(a.getTodaysWork());	
+	System.out.println(a.getWorkDeadline());
+	System.out.println(a.doActivity());
+	System.out.println(a.isTodayAHoliday());		
 }
 }
+
