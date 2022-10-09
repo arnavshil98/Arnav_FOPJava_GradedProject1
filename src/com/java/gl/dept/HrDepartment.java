@@ -23,7 +23,4 @@ public class HrDepartment extends SuperDepartment {
 
 	}
 
-	public String isTodayAHoliday() {
-		return super.isTodayAHoliday();
-	}
 }

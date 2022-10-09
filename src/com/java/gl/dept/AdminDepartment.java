@@ -17,8 +17,5 @@ public class AdminDepartment extends SuperDepartment {
 		return "Complete by EOD";
 	}
 
-	public String isTodayAHoliday() {
-		return super.isTodayAHoliday();
-	}
 
 }

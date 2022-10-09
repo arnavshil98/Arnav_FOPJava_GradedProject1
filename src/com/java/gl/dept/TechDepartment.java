@@ -21,7 +21,4 @@ public class TechDepartment extends SuperDepartment {
 		return "core Java";
 	}
 
-	public String isTodayAHoliday() {
-		return super.isTodayAHoliday();
-	}
 }
