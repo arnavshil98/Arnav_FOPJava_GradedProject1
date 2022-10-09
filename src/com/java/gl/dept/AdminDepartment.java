@@ -1,18 +1,24 @@
 package com.java.gl.dept;
-/*
- * this source code is contributed by Rageshree.
- */
-public class AdminDepartment {
+
+public class AdminDepartment extends SuperDepartment {
+
+	@Override
 	public String departmentName() {
 		return "Admin Department";
 	}
 
+	@Override
 	public String getTodaysWork() {
 		return "Complete your documents Submission";
 	}
 
+	@Override
 	public String getWorkDeadline() {
 		return "Complete by EOD";
+	}
+
+	public String isTodayAHoliday() {
+		return super.isTodayAHoliday();
 	}
 
 }
